@@ -4,10 +4,10 @@ provider "aws" {
   secret_key = "lLMmZdyE7xPqxWGT2TJcV3/scDcp9uL5Km2IUib4"
 }
 
-resource "aws_instance" "helllll" {
+resource "aws_instance" "hellohi" {
   ami           = "ami-0e6329e222e662a52"
   instance_type = var.instance_type
   tags= {
-    Name = "luckyy"
+    Name = "luckyy1"
   }
 }
