@@ -1,10 +1,10 @@
 provider "aws" {
 region = "ap-south-1"
-access_key = "AKIARDJD7CLXTQ3AMJON"
-secret_key = "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"
+access_key = "AKIARDJD7CLXRNAMR4CV"
+secret_key = "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"
 }
 
-resource "aws_instance" "fuckk" {
+resource "aws_instance" "hello" {
 ami = "ami-0cca134ec43cf708f"
 instance_type = "t2.micro"
 tags = {
