@@ -4,9 +4,9 @@ provider "aws" {
   secret_key = "lLMmZdyE7xPqxWGT2TJcV3/scDcp9uL5Km2IUib4"
 }
 
-resource "aws_instance" "hellll" {
+resource "aws_instance" "helllll" {
   ami           = "ami-0e6329e222e662a52"
-  instance_type = "t2.micro"
+  instance_type = var.instance_type
   tags= {
     Name = "luckyy"
   }
