@@ -4,10 +4,10 @@ provider "aws" {
   secret_key = "lLMmZdyE7xPqxWGT2TJcV3/scDcp9uL5Km2IUib4"
 }
 
-resource "aws_instance" "hellohi" {
+resource "aws_instance" "hello11" {
   ami           = "ami-0e6329e222e662a52"
   instance_type = "t2.micro"
   tags= {
-    Name = "luckyy1"
+    Name = "lucky01"
   }
 }
