@@ -1,11 +1,11 @@
 provider "aws" {
-  region = "ap-south-1"
-  access_key = "AKIARDJD7CLXSMXPON7T"
-  secret_key = "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"
+  region = "ca-central-1"
+  access_key = "AKIARDJD7CLXU3E4HCGX"
+  secret_key = "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"
 }
 
 resource "aws_instance" "hello11" {
-  ami           = "ami-0e6329e222e662a52"
+  ami = "ami-092e716d46cd65cac"
   instance_type = var.instance_type
   tags= {
     Name = "lucky01"
