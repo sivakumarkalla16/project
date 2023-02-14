@@ -6,7 +6,7 @@ provider "aws" {
 
 resource "aws_instance" "hello11" {
   ami = "ami-092e716d46cd65cac"
-  instance_type = var.instance_type
+  instance_type = "t2.medium"
   tags= {
     Name = "lucky01"
   }
